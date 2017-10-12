@@ -68,6 +68,7 @@ class MyComponent extends React.Component {
 
 ## Available options
 <br>
+
 ###To use Poral you need pass to it one of two props - either **isOpened** or **openPortalByClickOnElement**.
 
 * **isOpened:** *(Boolean)* - should Portal be opened or not.
