@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-$ npm install --save react-date-range
+$ npm install --save react-portalizer
 ```
 
 ## Usage
@@ -71,11 +71,17 @@ class MyComponent extends React.Component {
 ## Available options
 ####To use Poral you need pass to it one of two props - either **isOpened** or **openPortalByClickOnElement**.
 
-* **isOpened:** *(Boolean)* - Should Portal be opened or not.
-* **openPortalByClickOnElement:** *(Node)* - Element that should toggle Portal
-* **closeOnEsc** *(Boolean)* - Close Portal when ESC is presse
-* **closeOnOutsideClick** *(Boolean)* - Close Portal when click occured outside of Portal's body
-* **onOpen** *(Function)* - Function to be called ***after*** Portal is opened
-* **beforeOpen** *(Function)* - Function to be called ***before*** Portal is opened 
-* **onClose** *(Function)* - Function to be called ***after*** Portal is closed
-* **beforeClose** *(Function)* - Function to be called ***before*** Portal is closed
+* **isOpened:** *(Boolean)* - should Portal be opened or not.
+* **openPortalByClickOnElement:** *(Node)* - element that should toggle Portal's appearence
+* **closeOnEsc** *(Boolean)* - close Portal when ESC is pressed
+* **closeOnOutsideClick** *(Boolean)* - close Portal when click occured outside of Portal's body
+* **onOpen** *(Function)* - function to be called ***after*** Portal is opened
+* **beforeOpen** *(Function)* - function to be called ***before*** Portal is opened 
+* **onClose** *(Function)* - function to be called ***after*** Portal is closed
+* **beforeClose** *(Function)* - function to be called ***before*** Portal is closed
+<br>
+<br>
+<br>
+
+
+
