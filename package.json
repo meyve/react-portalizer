@@ -1,0 +1,43 @@
+{
+  "name": "react-portalizer",
+  "version": "1.0.0",
+  "description": "Simple React Portal component with out-of-box features.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint index.js test/",
+    "build": "babel -d build/ index.js"
+  },
+  "keywords": [
+    "react",
+    "react-portalizer",
+    "react-portal",
+    "portal"
+  ],
+  "author": "meyve <ouzkhanmete@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/meyve/react-portalizer"
+  },
+  "bugs": {
+    "url": "http://github.com/meyve/react-portalizer/issues"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.9.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
