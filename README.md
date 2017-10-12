@@ -1,5 +1,3 @@
-#Simple React Portal component with out-of-box features.
-
 
 # Getting Started
 ## Installation
@@ -69,7 +67,7 @@ class MyComponent extends React.Component {
 
 
 ## Available options
-####To use Poral you need pass to it one of two props - either **isOpened** or **openPortalByClickOnElement**.
+###To use Poral you need pass to it one of two props - either **isOpened** or **openPortalByClickOnElement**.
 
 * **isOpened:** *(Boolean)* - should Portal be opened or not.
 * **openPortalByClickOnElement:** *(Node)* - element that should toggle Portal's appearence
