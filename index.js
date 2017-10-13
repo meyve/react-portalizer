@@ -99,7 +99,7 @@ export class Portal extends React.Component {
     }
 
     wrapper = () => <div className='react_portal-wrapper'
-                         ref={(wrapper) => this.wrapperElement = wrapper}>{this.props.children}</div>;
+                         ref={(wrapper) => this.wrapperElement = wrapper}>{React.cloneElement(this.props.children, {closePortal: this.closePortal, openPortal: this.openPortal})}</div>;
 
     createPortal () {
         return ReactDOM.createPortal(this.wrapper(), this.portalContainer);
